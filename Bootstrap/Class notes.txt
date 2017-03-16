@@ -1,0 +1,45 @@
+CSS 526 Bootstrap
+include bootstrap css in <head>
+include jQuery at end of <body>
+include Tether after jQuery
+include bootstrap java last
+
+sass: language used to write bootstrap
+
+bower: useful for accessing and overiding some parts of bootstrap etc.
+
+gulp: combines many 
+
+use bootstrap to create <div> with classes: <div class="containter"> <div class="container-fluid">
+other classes with pre-existing properties
+
+media queries: asks for info on screen sizes to clarify css behavior
+
+'12 columns': <div class="row example"> -- sets example of row behavior
+sizes possible ->xs, sm, md, lg, xl
+
+'column' has some set value of number of columns used, a 'row' is not allowed to have more than 12 columns: moves the row down if too many columns attempt to cram in as width decreases.
+
+<div class="media">
+<div class="d-flex">
+
+<div class="hidden-(size)-(direction)">
+
+HTML 5: <code> for in line code, <var> for in line varialbe, <pre> pre-formated text, <samp> input sample (be wary that markdown languages like git my not support much of these unique features of Html 5)
+
+useful components:
+
+Alert:
+success,info,warning,danger
+<div class="alert alert-(type)" role="alert">
+
+Button
+<button type="button" class="btn btn-(type)">
+JQuery -> use this to attach actions to button events
+
+Modal
+<div class="modal (type)">
+
+Modal Message on Page Load
+
+teacher Russel Feldhausen (go to his official site -presentations -CIS 526 to see relevant class slide) 
